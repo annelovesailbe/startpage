@@ -3,51 +3,28 @@ import { updateVariant } from "./variants.js"
 
 const bookmarks = [
   {
-    label: "reddit",
+    label: "social",
     items: {
-      "r/startpages": "https://www.reddit.com/r/startpages",
-      "r/unixporn": "https://www.reddit.com/r/unixporn",
-      "r/webdev": "https://www.reddit.com/r/webdev",
-      "r/coolgithubprojects ": "https://www.reddit.com/r/coolgithubprojects ",
+      "reddit": "https://www.reddit.com",
+      "spacehey": "https://spacehey.com",
+      "pinterest": "https://https://www.pinterest.com/",
+      "strawpage": "https://straw.page/draw",
     },
   },
   {
-    label: "tools",
+    label: "general",
     items: {
-      "img > compress": "https://compressimage.io/",
-      "img > upscale": "https://bigjpg.com/",
-      "css > shadows": "https://www.joshwcomeau.com/shadow-palette/",
-      "js > bundlephobia": "https://bundlephobia.com/",
+      "youtube": "https://www.youtube.com/",
+      "gmail": "https://mail.google.com/mail/u/0/#inbox",
+      "icloud": "https://www.icloud.com/mail/",
+      "roblox": "https://www.roblox.com/home",
     },
   },
   {
-    label: "libs",
+    label: "techy",
     items: {
-      tailwind: "https://tailwindcss.com/docs/customizing-colors",
-      shadcn: "https://ui.shadcn.com/docs/components",
+      aur: "https://aur.archlinux.org/",
+      githubdown: "https://download-directory.github.io/",
     },
-  },
-  {
-    label: "ressources",
-    items: {
-      "react > bulletproof": "https://github.com/alan2207/bulletproof-react",
-      "js > patterns": "https://www.patterns.dev/#patterns",
-    },
-  },
+  }
 ]
-
-injectBookmarks(bookmarks)
-
-// Select a random variant
-updateVariant()
-// Or set a static variant
-// updateVariant("momo-1")
-
-// For debugging
-/*
-function iterateVariants() {
-  updateVariant()
-  setTimeout(iterateVariants, 5000)
-}
-iterateVariants()
-*/
