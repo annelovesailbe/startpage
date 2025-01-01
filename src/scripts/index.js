@@ -36,7 +36,6 @@ const bookmarks = [
   },
 ]
 
-
 injectBookmarks(bookmarks)
 
 // Select a random variant
