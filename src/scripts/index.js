@@ -27,7 +27,15 @@ const bookmarks = [
       githubdown: "https://download-directory.github.io/",
     },
   },
+  {
+    label: "ressources",
+    items: {
+      "react > bulletproof": "https://github.com/alan2207/bulletproof-react",
+      "js > patterns": "https://www.patterns.dev/#patterns",
+    },
+  },
 ]
+
 
 injectBookmarks(bookmarks)
 
