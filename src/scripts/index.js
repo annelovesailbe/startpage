@@ -26,5 +26,21 @@ const bookmarks = [
       aur: "https://aur.archlinux.org/",
       githubdown: "https://download-directory.github.io/",
     },
-  }
+  },
 ]
+
+injectBookmarks(bookmarks)
+
+// Select a random variant
+updateVariant()
+// Or set a static variant
+// updateVariant("momo-1")
+
+// For debugging
+/*
+function iterateVariants() {
+  updateVariant()
+  setTimeout(iterateVariants, 5000)
+}
+iterateVariants()
+*/
