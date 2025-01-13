@@ -7,7 +7,7 @@ const bookmarks = [
     items: {
       "reddit": "https://www.reddit.com",
       "spacehey": "https://spacehey.com",
-      "pinterest": "https://https://www.pinterest.com/",
+      "pinterest": "https://www.pinterest.com/",
       "strawpage": "https://straw.page/draw",
     },
   },
@@ -28,7 +28,7 @@ const bookmarks = [
     },
   },
   {
-    label: "ressources",
+    label: "resources",
     items: {
       "react > bulletproof": "https://github.com/alan2207/bulletproof-react",
       "js > patterns": "https://www.patterns.dev/#patterns",
